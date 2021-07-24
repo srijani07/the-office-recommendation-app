@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.options {
+  display: inline;
+  margin: 1rem 1rem;
+  border: 2px solid black;
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+}
+
+.episode-list {
+  margin: 1rem 1rem;
+  list-style-type: none;
+}
