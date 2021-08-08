@@ -1,3 +1,6 @@
+* {
+  background-color: #e5e7eb;
+}
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -5,13 +8,20 @@
 
 .options {
   display: inline;
-  margin: 1rem 1rem;
-  border: 2px solid black;
-  padding: 1rem 1rem;
+  margin: 1rem;
+  border: 1px solid black;
   border-radius: 1rem;
+  background-color: white;
 }
 
 .episode-list {
   margin: 1rem 1rem;
   list-style-type: none;
+  text-align: left;
+  text-decoration: underline 1px;
+  text-underline-offset: 5px;
+}
+
+li {
+  padding: 10px 20px;
 }

@@ -2,30 +2,30 @@ import "./styles.css";
 import { useState } from "react";
 
 var listOne = [
-  "S1,E5 : Basketball",
-  "S2,E12 : The Injury",
+  "S1, E5 : Basketball",
+  "S2, E12 : The Injury",
   "S4, E13 : Dinner Party",
-  "S4,E14 : Goodbye, Toby",
-  "S5,E14 : Stress Relief"
+  "S4, E14 : Goodbye, Toby",
+  "S5, E14 : Stress Relief"
 ];
 var listTwo = [
-  "S2,E22 : Casino Night",
+  "S2, E22 : Casino Night",
   "S3, E22 : Beach Games",
-  "S7,E22 : Goodbye, Michael",
-  "S9,E12 : Customer Loyalty",
+  "S7, E22 : Goodbye, Michael",
+  "S9, E12 : Customer Loyalty",
   "S9, E24 : Finale"
 ];
 var listThree = [
   "S3, E23 : The Job",
-  "S4,E1 : Fun Run",
-  "S5,E28 : Company Picnic",
-  "S6,E4 : Niagara",
-  "S7,E19 : Garage Sale"
+  "S4, E1 : Fun Run",
+  "S5, E28 : Company Picnic",
+  "S6, E4 : Niagara",
+  "S7, E19 : Garage Sale"
 ];
 var listFour = [
   "S2, E3 : Office Olympics",
-  "S2,E11 : Booze Cruise",
-  "S6,E14 : The Banker",
+  "S2, E11 : Booze Cruise",
+  "S6, E14 : The Banker",
   "S9, E21 : Livin' The Dream",
   "S9, E22 : A.A.R.M"
 ];
@@ -47,6 +47,9 @@ export default function App() {
   return (
     <div className="App">
       <h1>the office reccos :)</h1>
+      <h3>
+        Check out the best episodes of The Office! How are you feeling today?
+      </h3>
       <div>
         <ul>
           {feelingsList.map(function print(item) {
@@ -57,6 +60,7 @@ export default function App() {
             );
           })}
         </ul>
+
         <div>
           <ul class="episode-list">
             {episode.map(function print(item) {
